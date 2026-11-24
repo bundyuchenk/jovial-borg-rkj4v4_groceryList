@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #eef2ff;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+.App {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #6366f1;
+  text-align: center;
+  margin: 40px 0;
+}
+.product-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  max-width: 600px;
+  margin: 24px auto;
+  padding: 20px;
+  background-color: #f3f4f6;
+  border-radius: 16px;
+}
+
+.product-form input,
+.product-form select {
+  flex: 1 1 180px;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background-color: white;
+  color: #1f2937;
+  font: inherit;
+}
+
+.product-form input:focus {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+.product-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #6366f1;
+  color: white;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.product-form button:hover {
+  background-color: #4f46e5;
+}
+
+.product-form button:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 3px;
+}
+
+.shoping-list {
+  text-align: left;
+  color: brown;
+  font-size: 1.2rem;
+}
